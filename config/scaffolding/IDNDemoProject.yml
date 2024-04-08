@@ -7,3 +7,13 @@ packages:
   gitUrl: https://github.com/johnpcarter/IDNDemoProject
   gitUsername: johnpcarter
   gitBranch: main
+- name: OpenWeatherClient
+  gitServerName: RAHS_Not_SAG
+  gitUrl: https://github.com/rahuldemocenter
+  gitUsername: rahuldemocenter
+  gitBranch: main
+services:
+- serviceName: project.idndemo.integrations:getWeatherForCity
+  packages:
+  - name: IDNDemoProject
+    version: "1.0"

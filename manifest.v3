@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="OpenWeatherClient">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">3</value>
+  <value name="build">4</value>
   <null name="description"/>
   <value name="created_date">08-04-2024 08:33:35 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-04-08T08:37:14.355215213Z</value>
+  <value name="lastUpdated">2024-04-08T08:40:07.206379351Z</value>
   <value name="wmProjectId">flce3a25a19d77d2e17f89d5</value>
   <value name="creator">John Carter</value>
 </Values>
