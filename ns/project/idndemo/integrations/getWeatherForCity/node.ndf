@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john</value>
-    <value name="lastModifiedDate">1712565642346</value>
+    <value name="lastModifiedDate">1712565670271</value>
     <value name="displayName">getWeatherForCity</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -86,6 +86,7 @@
         </array>
         <value name="nodePathForDebug">0</value>
       </record>
+      <null name="/0/0"/>
       <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
