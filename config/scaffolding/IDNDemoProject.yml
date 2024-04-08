@@ -17,3 +17,21 @@ services:
   packages:
   - name: IDNDemoProject
     version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData
+  packages:
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.json:jsonStreamToDocument
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: pub.json:documentToJSONString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
